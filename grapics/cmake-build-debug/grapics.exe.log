@@ -1,0 +1,120 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\C++\grapics\cmake-build-debug\grapics.exe, файл: D:\C++\grapics\TXLib.h, строка: 12718, функция: HBRUSH__* {anonymous}::TX::txSetFillColor(COLORREF, HDC),
+
+Сообщение: Окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 168, Date: 2021-01-05 12:10:19 +0400], Instance: 0x000000000043A8E0 (64-bit), Flags: Cmdre0, Thread: 0x950 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x000000000040AC64 in D:\C++\grapics\cmake-build-debug\grapics.exe: _txError() at D:/C++/grapics/TXLib.h (10483)
+# 1 0x0000000000413659 in D:\C++\grapics\cmake-build-debug\grapics.exe: txSetFillColor() at D:/C++/grapics/TXLib.h (12718)
+
+# 2 0x000000000041CF39 in D:\C++\grapics\cmake-build-debug\grapics.exe: main() at D:/C++/grapics/main.cpp (6):
+
+      4: 
+      5: int main() {
+=>    6:     txSetFillColor(TX_LIGHTRED);
+      7:     txCreateWindow(800 ,600);
+      8:     txSetColor(TX_RED,4);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 168, Date: 2021-01-05 12:10:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\C++\grapics\TXLib.h
+Compiled:	Jan  5 2021 22:25:36, GNU g++ 8.1.0, std=201402L, MinGW-W64 Runtime 6.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Jan 05 2021 22:25:42
+
+Run file:	D:\C++\grapics\cmake-build-debug\grapics.exe
+Directory:	D:\C++\grapics\cmake-build-debug
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\C++\grapics\cmake-build-debug\grapics.exe, файл: D:\C++\grapics\TXLib.h, строка: 12718, функция: HBRUSH__* {anonymous}::TX::txSetFillColor(COLORREF, HDC),
+
+Сообщение: Окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 168, Date: 2021-01-05 12:10:19 +0400], Instance: 0x000000000043A8E0 (64-bit), Flags: Cmdre0, Thread: 0x10EC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x000000000040AC64 in D:\C++\grapics\cmake-build-debug\grapics.exe: _txError() at D:/C++/grapics/TXLib.h (10483)
+# 1 0x0000000000413659 in D:\C++\grapics\cmake-build-debug\grapics.exe: txSetFillColor() at D:/C++/grapics/TXLib.h (12718)
+
+# 2 0x000000000041CF39 in D:\C++\grapics\cmake-build-debug\grapics.exe: main() at D:/C++/grapics/main.cpp (6):
+
+      4: 
+      5: int main() {
+=>    6:     txSetFillColor(TX_LIGHTRED);
+      7:     txCreateWindow(800 ,600);
+      8:     txSetColor(TX_RED,4);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 168, Date: 2021-01-05 12:10:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\C++\grapics\TXLib.h
+Compiled:	Jan  5 2021 22:25:36, GNU g++ 8.1.0, std=201402L, MinGW-W64 Runtime 6.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Jan 05 2021 22:26:29
+
+Run file:	D:\C++\grapics\cmake-build-debug\grapics.exe
+Directory:	D:\C++\grapics\cmake-build-debug
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\C++\grapics\cmake-build-debug\grapics.exe, файл: D:\C++\grapics\TXLib.h, строка: 12718, функция: HBRUSH__* {anonymous}::TX::txSetFillColor(COLORREF, HDC),
+
+Сообщение: Окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 168, Date: 2021-01-05 12:10:19 +0400], Instance: 0x000000000043A8E0 (64-bit), Flags: Cmdre0, Thread: 0x1960 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x000000000040AC64 in D:\C++\grapics\cmake-build-debug\grapics.exe: _txError() at D:/C++/grapics/TXLib.h (10483)
+# 1 0x0000000000413659 in D:\C++\grapics\cmake-build-debug\grapics.exe: txSetFillColor() at D:/C++/grapics/TXLib.h (12718)
+
+# 2 0x000000000041CF39 in D:\C++\grapics\cmake-build-debug\grapics.exe: main() at D:/C++/grapics/main.cpp (6):
+
+      4: 
+      5: int main() {
+=>    6:     txSetFillColor(TX_RED);
+      7:     txCreateWindow(800 ,600);
+      8:     txSetColor(TX_RED,4);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 168, Date: 2021-01-05 12:10:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	D:\C++\grapics\TXLib.h
+Compiled:	Jan  5 2021 22:27:15, GNU g++ 8.1.0, std=201402L, MinGW-W64 Runtime 6.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Jan 05 2021 22:27:21
+
+Run file:	D:\C++\grapics\cmake-build-debug\grapics.exe
+Directory:	D:\C++\grapics\cmake-build-debug
+
+--------------------------------------------------
